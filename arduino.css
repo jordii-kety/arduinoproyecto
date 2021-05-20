@@ -1,0 +1,81 @@
+/* Styles for the fonst */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+
+.banner {
+  /* Photo by mnm.all on Unsplash */
+  background: url('img/arduinobanner.png') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.banner > * {
+  color: red;
+}
+
+.banner > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.arduino {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+
+}
+
+
+.h1 {
+  text-shadow: 2px 2px 5px red;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.text {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.inici {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: white;
+
+}
+.imgr {
+
+    float: right;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
